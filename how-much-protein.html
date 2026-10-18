@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How Much Protein Do I Need to Build Muscle? | Fat Loss</title>
+<meta name="description" content="Pooled data from 49 randomised trials in 1,863 people puts the useful ceiling near 1.6 g/kg/day. Here is what that number means, who it was measured in, and what to actually eat.">
+<meta property="og:title" content="How Much Protein Do I Need to Build Muscle?">
+<meta property="og:description" content="49 RCTs, 1,863 people, one breakpoint: ~1.6 g/kg/day. What the number means and who was studied.">
+<meta property="og:type" content="article">
+<!-- TODO: set canonical once the domain is chosen -->
+<!-- <link rel="canonical" href="https://SUBDOMAIN.brusovcoach.org/PAGE"> -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "How much protein do I need to build muscle?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A meta-analysis of 49 randomised controlled trials in 1,863 participants (Morton et al., British Journal of Sports Medicine, 2018) found that protein intakes above roughly 1.6 g/kg of bodyweight per day produced no further gains in fat-free mass from resistance training. Around 1.6 g/kg/day is a sensible target; up to about 2.2 g/kg/day is defensible during a diet, and is not harmful."
+    }
+  }]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f5f0e8;
+    --bg2: #ede8df;
+    --bg3: #e4ddd3;
+    --border: #cfc8bc;
+    --border-light: #bfb8aa;
+    --text: #1a1714;
+    --text-secondary: #4a4540;
+    --muted: #5a524a;
+    --accent: #d4500a;
+    --accent-bright: #e8601a;
+    --accent-dim: rgba(212,80,10,0.12);
+    --true: #1a8f4a;
+    --overstated: #b8790a;
+    --false: #c22a2a;
+    --depends: #4a6b8a;
+    --font-display: 'Barlow Condensed', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+    --radius: 6px;
+    --radius-lg: 10px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.72;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 28px; }
+  .narrow { max-width: 720px; margin: 0 auto; padding: 0 28px; }
+
+  /* ── TOP BAR ── */
+  .topbar {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(245,240,232,0.94);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+  }
+  .topbar-inner {
+    max-width: 1080px; margin: 0 auto; padding: 14px 28px;
+    display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;
+  }
+  .brand {
+    font-family: var(--font-display); font-weight: 800;
+    font-size: 21px; line-height: 1; letter-spacing: 0.06em; text-transform: uppercase;
+    text-decoration: none;
+  }
+  .brand span { color: var(--accent); }
+  .topbar-tag { font-size: 12px; color: var(--muted); letter-spacing: 0.04em; text-transform: uppercase; font-weight: 500; }
+  .topbar-back { margin-left: auto; font-size: 13px; color: var(--muted); text-decoration: none; }
+  .topbar-back:hover { color: var(--accent); }
+
+  /* ── VERDICT BADGE ── */
+  .verdict {
+    display: inline-block;
+    font-family: var(--font-display); font-weight: 800;
+    font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase;
+    padding: 4px 10px; border-radius: 3px; color: #fff;
+  }
+  .v-true { background: var(--true); }
+  .v-mostly { background: var(--true); opacity: .82; }
+  .v-overstated { background: var(--overstated); }
+  .v-false { background: var(--false); }
+  .v-depends { background: var(--depends); }
+
+  /* ── ARTICLE HEAD ── */
+  .art-head { padding: 56px 0 34px; border-bottom: 1px solid var(--border); }
+  h1 {
+    font-family: var(--font-display); font-weight: 800;
+    font-size: clamp(31px, 5.4vw, 52px); line-height: 1.04;
+    letter-spacing: -0.005em; text-transform: uppercase;
+    margin: 14px 0 0;
+  }
+  .answer {
+    margin-top: 22px; padding: 20px 22px;
+    background: var(--bg2); border-left: 3px solid var(--accent);
+    border-radius: 0 var(--radius) var(--radius) 0;
+  }
+  .answer-label {
+    font-family: var(--font-display); font-weight: 700; font-size: 12px;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent);
+    display: block; margin-bottom: 7px;
+  }
+  .answer p { font-size: 17px; line-height: 1.62; }
+
+  /* ── BODY ── */
+  article { padding: 38px 0 10px; }
+  article h2 {
+    font-family: var(--font-display); font-weight: 700;
+    font-size: 27px; line-height: 1.14; text-transform: uppercase;
+    margin: 42px 0 14px; letter-spacing: 0.005em;
+  }
+  article h2:first-child { margin-top: 0; }
+  article h3 {
+    font-family: var(--font-display); font-weight: 700;
+    font-size: 20px; text-transform: uppercase; margin: 28px 0 10px;
+  }
+  article p { margin-bottom: 16px; color: var(--text-secondary); }
+  article strong { color: var(--text); font-weight: 600; }
+  article ul, article ol { margin: 0 0 18px 20px; color: var(--text-secondary); }
+  article li { margin-bottom: 8px; }
+  article a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+
+  /* ── CITATION BLOCK ── */
+  .cite {
+    margin: 22px 0 26px; padding: 18px 20px;
+    background: #fff; border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+  }
+  .cite-type {
+    font-family: var(--font-display); font-weight: 800; font-size: 11.5px;
+    letter-spacing: 0.13em; text-transform: uppercase;
+    color: #fff; background: var(--accent);
+    padding: 3px 9px; border-radius: 3px; display: inline-block;
+  }
+  .cite-title { font-weight: 600; margin: 11px 0 4px; color: var(--text); line-height: 1.45; }
+  .cite-ref { font-size: 13.5px; color: var(--muted); }
+  .cite-stats {
+    margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border);
+    display: flex; gap: 26px; flex-wrap: wrap;
+  }
+  .stat-n {
+    font-family: var(--font-display); font-weight: 800; font-size: 25px;
+    line-height: 1; color: var(--accent);
+  }
+  .stat-l {
+    font-size: 11px; letter-spacing: 0.07em; text-transform: uppercase;
+    color: var(--muted); margin-top: 3px;
+  }
+  .cite a { font-size: 13.5px; }
+
+  /* ── WHO WAS STUDIED ── */
+  .who {
+    margin: 26px 0; padding: 18px 20px;
+    background: var(--bg3); border-radius: var(--radius-lg);
+    border: 1px dashed var(--border-light);
+  }
+  .who-label {
+    font-family: var(--font-display); font-weight: 800; font-size: 12px;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--text); display: block; margin-bottom: 8px;
+  }
+  .who p { margin: 0; font-size: 14.5px; }
+
+  /* ── DO THIS ── */
+  .todo {
+    margin: 30px 0; padding: 22px 24px;
+    background: var(--text); color: #ece7df;
+    border-radius: var(--radius-lg);
+  }
+  .todo h2 { color: #fff; margin: 0 0 12px; font-size: 23px; }
+  .todo ul { margin: 0 0 0 19px; color: #ddd6cc; }
+  .todo li { margin-bottom: 9px; }
+  .todo strong { color: #fff; }
+
+  /* ── CTA ── */
+  .cta {
+    margin: 42px 0 10px; padding: 26px;
+    background: var(--bg2); border: 1px solid var(--border);
+    border-radius: var(--radius-lg); text-align: center;
+  }
+  .cta h2 { margin: 0 0 8px; font-size: 25px; }
+  .cta p { margin-bottom: 18px; }
+  .btn {
+    display: inline-block; padding: 12px 26px;
+    background: var(--accent); color: #fff; text-decoration: none;
+    font-family: var(--font-display); font-weight: 700; font-size: 16px;
+    letter-spacing: 0.08em; text-transform: uppercase; border-radius: var(--radius);
+  }
+  .btn:hover { background: var(--accent-bright); }
+
+  /* ── RELATED ── */
+  .related { padding: 40px 0 0; border-top: 1px solid var(--border); margin-top: 44px; }
+  .related h2 { font-family: var(--font-display); font-weight: 700; font-size: 22px; text-transform: uppercase; margin-bottom: 16px; }
+  .related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px,1fr)); gap: 13px; }
+  .related-grid a {
+    padding: 15px 17px; background: var(--bg2); border: 1px solid var(--border);
+    border-radius: var(--radius); text-decoration: none;
+    font-family: var(--font-display); font-weight: 700; font-size: 17px;
+    text-transform: uppercase; line-height: 1.2;
+  }
+  .related-grid a:hover { border-color: var(--accent); background: #fff; }
+
+  /* ── FOOTER ── */
+  footer { margin-top: 44px; padding: 40px 0 56px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  .footer-links { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 16px; }
+
+  @media (max-width: 640px) {
+    .wrap, .narrow { padding: 0 18px; }
+    .topbar-inner { padding: 12px 18px; }
+    .topbar-tag { display: none; }
+    .art-head { padding: 36px 0 26px; }
+    .answer { padding: 17px 18px; }
+    .answer p { font-size: 16px; }
+    article h2 { font-size: 24px; margin: 34px 0 12px; }
+    .cite-stats { gap: 20px; }
+    .related-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ─────────────────────────────────────────────
+     ACADEMIC PASS: same look as the other hubs.
+     Serif headings, sentence case, hairline rules,
+     calm verdict labels. Accent: deep teal.
+     ───────────────────────────────────────────── */
+  :root {
+    --bg: #fdfcfa; --bg2: #f6f4ef; --bg3: #f0ede6;
+    --border: #e2ded4; --border-light: #c9c4b8;
+    --text: #15171b; --text-secondary: #3a3f47; --muted: #6a6f77;
+    --accent: #155e63; --accent-bright: #1b767c; --accent-dim: rgba(21,94,99,0.08);
+    --true: #1a7f45; --overstated: #9a6a08; --false: #a82525; --depends: #4a5d73;
+    --font-display: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+    --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --radius: 3px; --radius-lg: 4px;
+  }
+  body { font-size: 16px; line-height: 1.75; }
+  .topbar { background: rgba(253,252,250,0.95); }
+  .controls { background: rgba(253,252,250,0.95); }
+
+  /* Headings: serif, sentence case, no shouting */
+  h1, h2, h3, .brand, .card h2, article h2, article h3, .related h2, .related-grid a, .todo h2, .cta h2 {
+    font-family: var(--font-display); text-transform: none; letter-spacing: -0.006em;
+  }
+  .brand { font-size: 20px; font-weight: 600; letter-spacing: 0; }
+  .brand span { color: inherit; }
+  h1 { font-weight: 600; line-height: 1.12; }
+  .hero h1 { font-size: clamp(32px, 5vw, 46px); max-width: 22ch; }
+  .art-head h1 { font-size: clamp(28px, 4.4vw, 40px); }
+  .card h2 { font-size: 19px; font-weight: 600; line-height: 1.25; }
+  article h2 { font-size: 25px; font-weight: 600; }
+  article h3 { font-size: 19px; font-weight: 600; }
+  .related h2 { font-size: 21px; font-weight: 600; }
+  .related-grid a { font-size: 16px; font-weight: 600; line-height: 1.3; }
+  .todo h2 { font-size: 21px; font-weight: 600; }
+  .cta h2 { font-size: 24px; font-weight: 600; }
+
+  /* Small tracked caps stay for labels, in the sans face */
+  .eyebrow, .answer-label, .who-label, .cite-type, .verdict, .filter, .btn, .stat-l, .card-meta {
+    font-family: var(--font-body);
+  }
+  .eyebrow { font-size: 11px; letter-spacing: 0.22em; color: var(--muted); font-weight: 600; }
+  .answer-label { font-size: 11px; font-weight: 700; letter-spacing: 0.18em; }
+  .who-label { font-size: 11px; font-weight: 700; letter-spacing: 0.16em; color: var(--muted); }
+  .verdict { font-size: 10.5px; font-weight: 700; letter-spacing: 0.16em; padding: 3px 8px; border-radius: 2px; }
+  .filter { font-size: 11px; font-weight: 600; letter-spacing: 0.12em; background: none; }
+  .filter.active { background: var(--accent); }
+  .btn { font-size: 12px; font-weight: 700; letter-spacing: 0.14em; border-radius: 3px; }
+
+  /* Chrome reduction: hairline rules, no tinted boxes */
+  .hero { border-top: 2px solid var(--accent); }
+  .hero-note, .answer {
+    background: none; border-left: 2px solid var(--accent); border-radius: 0; padding: 4px 0 4px 24px;
+  }
+  .answer p { font-family: var(--font-display); font-size: 18.5px; line-height: 1.55; color: var(--text); }
+  .card { background: none; border-radius: var(--radius-lg); }
+  .card:hover { background: var(--bg2); border-color: var(--border-light); transform: none; }
+  .cite { border-radius: var(--radius-lg); }
+  .cite-type { background: none; color: var(--accent); padding: 0; font-size: 10.5px; font-weight: 700; letter-spacing: 0.16em; }
+  .stat-n { font-family: var(--font-display); font-weight: 600; color: var(--text); font-size: 24px; letter-spacing: -0.01em; }
+  .who { background: var(--bg2); border: 0; border-left: 2px solid var(--border-light); border-radius: 0; }
+  .todo { background: var(--bg2); color: var(--text); border-top: 2px solid var(--accent); border-radius: 0; }
+  .todo h2, .todo strong { color: var(--text); }
+  .todo ul { color: var(--text-secondary); }
+  .todo a { color: var(--accent); }
+  .cta { background: var(--bg2); border-top: 2px solid var(--accent); border-radius: 0; }
+  .related-grid a { background: none; border-radius: var(--radius-lg); }
+  .related-grid a:hover { background: var(--bg2); border-color: var(--border-light); }
+
+  /* Training hub link: filled accent button so it stands out */
+  .hub-btn {
+    font-family: var(--font-body); font-size: 11px; font-weight: 700; letter-spacing: 0.14em;
+    text-transform: uppercase; text-decoration: none; white-space: nowrap;
+    background: var(--accent); color: #fff; padding: 7px 12px; border-radius: 3px;
+  }
+  .hub-btn:hover { color: #fff; filter: brightness(1.15); }
+  .topbar-inner { align-items: center; }
+  @media (max-width: 640px) {
+    .topbar-back.all { display: none; }
+    .hub-btn { margin-left: auto; }
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html">Fat Loss</a>
+    <span class="topbar-tag">Coach Vladimir Brusov</span>
+    <a class="topbar-back all" href="index.html">← All questions</a>
+    <a class="hub-btn" href="https://brusovcoach.org">Training hub</a>
+  </div>
+</header>
+
+<main>
+  <div class="art-head">
+    <div class="narrow">
+      <span class="verdict v-mostly">Mostly true</span>
+      <h1>How much protein do I need to build muscle?</h1>
+      <div class="answer">
+        <span class="answer-label">Short answer</span>
+        <p>About <strong>1.6 grams per kilogram of bodyweight per day</strong>. That is where the pooled evidence stops improving. Eating more isn't dangerous and can help while dieting; it just stops adding muscle.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="narrow">
+    <article>
+
+      <h2>What the research actually shows</h2>
+
+      <p>This is the rare nutrition question with a clean answer, because someone pooled every decent trial and looked for the point where the benefit stopped.</p>
+
+      <div class="cite">
+        <span class="cite-type">Meta-analysis</span>
+        <div class="cite-title">A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults</div>
+        <div class="cite-ref">Morton RW et al., <em>British Journal of Sports Medicine</em>, 2018</div>
+        <div class="cite-stats">
+          <div><div class="stat-n">49</div><div class="stat-l">randomised trials</div></div>
+          <div><div class="stat-n">1,863</div><div class="stat-l">participants</div></div>
+          <div><div class="stat-n">1.6</div><div class="stat-l">g/kg/day breakpoint</div></div>
+        </div>
+        <p style="margin:12px 0 0"><a href="https://pubmed.ncbi.nlm.nih.gov/28698222/" target="_blank" rel="noopener">Read it on PubMed →</a></p>
+      </div>
+
+      <p>Three findings matter for you:</p>
+
+      <ul>
+        <li><strong>The ceiling is around 1.6 g/kg/day.</strong> Above that, extra protein produced no further gain in fat-free mass. The curve flattens; it does not turn downward.</li>
+        <li><strong>The total effect of supplementing is modest.</strong> Averaged across all trials, extra protein added <strong>0.30 kg</strong> of fat-free mass (95% CI 0.09–0.52) and about <strong>2.5 kg</strong> to one-rep max. Protein is a requirement, not a growth drug; the training does the work.</li>
+        <li><strong>It works better if you already lift, and worse as you age.</strong> The benefit was larger in resistance-trained subjects and shrank with increasing age. This is the unusual case where the finding transfers <em>to</em> trained lifters rather than away from them.</li>
+      </ul>
+
+      <p>A second, larger review looked at the shape of the curve rather than a single cut-off, and found the same thing from a different angle.</p>
+
+      <div class="cite">
+        <span class="cite-type">Systematic review</span>
+        <div class="cite-title">Dose-response relationship between protein intake and muscle mass increase: a systematic review and meta-analysis of randomized controlled trials</div>
+        <div class="cite-ref">Tagawa R et al., <em>Nutrition Reviews</em>, 2020</div>
+        <div class="cite-stats">
+          <div><div class="stat-n">105</div><div class="stat-l">articles</div></div>
+          <div><div class="stat-n">5,402</div><div class="stat-l">participants</div></div>
+        </div>
+        <p style="margin:12px 0 0"><a href="https://pubmed.ncbi.nlm.nih.gov/33300582/" target="_blank" rel="noopener">Read it on PubMed →</a></p>
+      </div>
+
+      <p>Below about 1.3 g/kg/day, each extra 0.1 g/kg bought roughly <strong>0.39 kg</strong> of lean mass. Above it, the same increment bought only <strong>0.12 kg</strong>. Same story: steep returns while you're under-eating protein, shallow returns once you're not.</p>
+
+      <div class="who">
+        <span class="who-label">Who was studied</span>
+        <p>Mixed: untrained and trained adults across both reviews, but the meta-regression specifically tested training status and found the effect was <em>larger</em> in trained lifters. That makes this one of the few protein numbers you can quote at a lifter without a caveat. The age effect is real though: an older trainee gets less out of the same gram of protein.</p>
+      </div>
+
+      <h2>So why do you hear 2 g per pound?</h2>
+
+      <p>Because it's harmless, it sounds serious, and nobody ever got fired for over-recommending protein. Roughly 2.2 g/kg (1 g per pound of bodyweight) sits comfortably above the breakpoint, which is why it survives as a rule of thumb. It works by being generously wrong in the safe direction.</p>
+
+      <p>There is one situation where deliberately overshooting earns its keep: <strong>an aggressive fat-loss phase</strong>. In a deficit, higher protein protects lean mass and blunts hunger, and intakes toward 2.2–2.4 g/kg are commonly used by lean athletes cutting hard (<a href="https://pubmed.ncbi.nlm.nih.gov/24092765/" target="_blank" rel="noopener">Helms 2014</a>). That's a different job than building muscle, and it's why the numbers you hear from bodybuilders in contest prep look inflated compared to the meta-analysis.</p>
+
+      <p>If you're worried about the high end: <a href="protein-and-kidneys.html">28 controlled trials found no effect on kidney function in healthy adults</a>.</p>
+
+      <div class="todo">
+        <h2>What to do</h2>
+        <ul>
+          <li><strong>Target 1.6 g/kg/day</strong>, about 0.73 g per pound. For an 80 kg lifter that's roughly 130 g.</li>
+          <li><strong>Going to 2.2 g/kg is fine</strong>, just don't expect more muscle for it. Use the high end while dieting, not while bulking.</li>
+          <li><strong>Use bodyweight, not goal weight</strong>, unless you're carrying a lot of fat. Then use an estimate of your lean mass or goal weight instead, or you'll chase a number you don't need.</li>
+          <li><strong>Hit the daily total before you optimise anything else.</strong> Distribution, timing, and source are all downstream of this number . See <a href="protein-per-meal-30g.html">the 30 g myth</a> and <a href="anabolic-window.html">the anabolic window</a>.</li>
+        </ul>
+      </div>
+
+      <div class="cta">
+        <h2>Want this set up around your actual life?</h2>
+        <p>I coach in person in St. Louis and online. First consultation is free.</p>
+        <a class="btn" href="https://brusovcoach.org/#contact">Get in touch</a>
+      </div>
+
+    </article>
+
+    <section class="related">
+      <h2>Related questions</h2>
+      <div class="related-grid">
+        <a href="protein-and-kidneys.html">Does high protein damage your kidneys?</a>
+        <a href="protein-per-meal-30g.html">Is there a 30 g per-meal cap?</a>
+        <a href="plant-vs-animal-protein.html">Plant vs animal protein</a>
+        <a href="anabolic-window.html">Is there an anabolic window?</a>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="narrow">
+    <div class="footer-links">
+      <a href="index.html">All questions</a>
+      <a href="https://brusovcoach.org">Training hub</a>
+    </div>
+    <p>Every claim on this page links to the study behind it. Where the research is thin, the page says so.</p>
+    <p style="margin-top:10px">© <span id="yr"></span> Vladimir Brusov · Strength &amp; Conditioning Coach, St. Louis</p>
+  </div>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>

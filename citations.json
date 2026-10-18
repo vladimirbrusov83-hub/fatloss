@@ -1,0 +1,293 @@
+{
+  "how-much-protein": [
+    {
+      "pmid": "28698222",
+      "label": "Morton 2018",
+      "expect": "meta-analysis"
+    },
+    {
+      "pmid": "33300582",
+      "label": "Tagawa 2021 dose-response",
+      "expect": "meta-analysis"
+    },
+    {
+      "pmid": "24092765",
+      "label": "Helms 2014 protein for lean athletes in deficit",
+      "expect": "systematic review"
+    }
+  ],
+  "calorie-deficit-surplus": [
+    {
+      "pmid": "26278052",
+      "label": "Hall 2015 metabolic ward",
+      "expect": "RCT"
+    },
+    {
+      "pmid": "27385608",
+      "label": "Hall 2016 isocaloric keto",
+      "expect": "controlled feeding"
+    }
+  ],
+  "anabolic-window": [
+    {
+      "pmid": "24299050",
+      "label": "Schoenfeld 2013 protein timing",
+      "expect": "meta-analysis"
+    }
+  ],
+  "protein-and-kidneys": [
+    {
+      "pmid": "30383278",
+      "label": "Devries 2018 kidney function",
+      "expect": "meta-analysis"
+    }
+  ],
+  "six-meals-a-day": [
+    {
+      "pmid": "26024494",
+      "label": "Schoenfeld 2015 meal frequency",
+      "expect": "meta-analysis"
+    }
+  ],
+  "eating-late-at-night": [
+    {
+      "pmid": "36198293",
+      "label": "Vujovi\u0107 2022 late isocaloric eating",
+      "expect": "crossover RCT"
+    }
+  ],
+  "fasted-cardio": [
+    {
+      "pmid": "29315892",
+      "label": "Aird 2018 fasted vs fed",
+      "expect": "systematic review/meta-analysis"
+    }
+  ],
+  "how-fast-to-lose-weight": [
+    {
+      "pmid": "21558571",
+      "label": "Garthe 2011 rate of weight loss in athletes",
+      "expect": "RCT"
+    },
+    {
+      "pmid": "31247944",
+      "label": "Iraki 2019 off-season",
+      "expect": "narrative review"
+    }
+  ],
+  "clean-vs-dirty-bulk": [
+    {
+      "pmid": "31482093",
+      "label": "Slater 2019 energy surplus",
+      "expect": "review"
+    },
+    {
+      "pmid": "31247944",
+      "label": "Iraki 2019 off-season",
+      "expect": "narrative review"
+    }
+  ],
+  "plant-vs-animal-protein": [
+    {
+      "pmid": "33670701",
+      "label": "Lim 2021 animal vs plant",
+      "expect": "systematic review/meta-analysis"
+    },
+    {
+      "pmid": "39813010",
+      "label": "Reid-McCann 2025",
+      "expect": "systematic review/meta-analysis"
+    }
+  ],
+  "intermittent-fasting": [
+    {
+      "pmid": "32781538",
+      "label": "Keenan 2020 IF + RT",
+      "expect": "systematic review"
+    },
+    {
+      "pmid": "33984329",
+      "label": "Ashtary-Larky 2021",
+      "expect": "systematic review/meta-analysis"
+    }
+  ],
+  "starvation-mode": [
+    {
+      "pmid": "33762040",
+      "label": "Nunes 2022 adaptive thermogenesis SR",
+      "expect": "systematic review"
+    },
+    {
+      "pmid": "27136388",
+      "label": "Fothergill 2016 Biggest Loser follow-up",
+      "expect": "observational follow-up"
+    }
+  ],
+  "build-muscle-lose-fat": [
+    {
+      "pmid": "26817506",
+      "label": "Longland 2016 high-protein deficit RCT",
+      "expect": "RCT"
+    },
+    {
+      "pmid": "21558571",
+      "label": "Garthe 2011 rate of weight loss in athletes",
+      "expect": "RCT"
+    }
+  ],
+  "alcohol-and-gains": [
+    {
+      "pmid": "24533082",
+      "label": "Parr 2014 alcohol + MPS",
+      "expect": "RCT"
+    }
+  ],
+  "protein-per-meal-30g": [
+    {
+      "pmid": "29497353",
+      "label": "Schoenfeld 2018 per-meal protein dose",
+      "expect": "review"
+    }
+  ],
+  "how-many-calories": [
+    {
+      "pmid": "15883556",
+      "label": "Frankenfield 2005 RMR equations",
+      "expect": "systematic review"
+    },
+    {
+      "pmid": "21872751",
+      "label": "Hall 2011 dynamic energy balance",
+      "expect": "modelling"
+    }
+  ],
+  "weight-stalled": [
+    {
+      "pmid": "37395124",
+      "label": "Kanellakis 2023 menstrual weight",
+      "expect": "observational"
+    },
+    {
+      "pmid": "26293454",
+      "label": "Madigan 2015 self-weighing",
+      "expect": "meta-analysis"
+    }
+  ],
+  "diet-breaks": [
+    {
+      "pmid": "28925405",
+      "label": "Byrne 2018 MATADOR",
+      "expect": "RCT"
+    },
+    {
+      "pmid": "33587549",
+      "label": "Peos 2021 ICECAP primary",
+      "expect": "RCT"
+    },
+    {
+      "pmid": "33630880",
+      "label": "Peos 2021 ICECAP diet-break secondary",
+      "expect": "secondary analysis"
+    }
+  ],
+  "set-point": [
+    {
+      "pmid": "22065844",
+      "label": "Speakman 2011 set/settling points",
+      "expect": "review"
+    },
+    {
+      "pmid": "23404923",
+      "label": "Muller 2013 adaptive thermogenesis",
+      "expect": "review"
+    }
+  ],
+  "best-diet": [
+    {
+      "pmid": "25182101",
+      "label": "Johnston 2014 named diets",
+      "expect": "meta-analysis"
+    },
+    {
+      "pmid": "29466592",
+      "label": "Gardner 2018 DIETFITS",
+      "expect": "RCT"
+    },
+    {
+      "pmid": "15632335",
+      "label": "Dansinger 2005 four diets",
+      "expect": "RCT"
+    },
+    {
+      "pmid": "10349584",
+      "label": "Westenhoefer 1999 rigid/flexible",
+      "expect": "observational"
+    }
+  ],
+  "hunger": [
+    {
+      "pmid": "32768415",
+      "label": "Kohanmoo 2020 protein appetite",
+      "expect": "meta-analysis"
+    },
+    {
+      "pmid": "17556681",
+      "label": "Ello-Martin 2007 energy density",
+      "expect": "RCT"
+    },
+    {
+      "pmid": "31105044",
+      "label": "Hall 2019 ultra-processed",
+      "expect": "RCT"
+    },
+    {
+      "pmid": "20921542",
+      "label": "Nedeltcheva 2010 sleep",
+      "expect": "RCT"
+    }
+  ],
+  "after-the-diet": [
+    {
+      "pmid": "11684524",
+      "label": "Anderson 2001 maintenance",
+      "expect": "meta-analysis"
+    },
+    {
+      "pmid": "16002825",
+      "label": "Wing 2005 maintenance",
+      "expect": "review"
+    },
+    {
+      "pmid": "24355667",
+      "label": "Thomas 2014 NWCR",
+      "expect": "observational"
+    }
+  ],
+  "stubborn-fat": [
+    {
+      "pmid": "21804427",
+      "label": "Vispute 2011 abdominal exercise",
+      "expect": "RCT"
+    },
+    {
+      "pmid": "23222084",
+      "label": "Ramirez-Campillo 2013 one leg",
+      "expect": "controlled trial"
+    },
+    {
+      "pmid": "38010201",
+      "label": "Brobakken 2023 abdominal",
+      "expect": "RCT"
+    },
+    {
+      "pmid": "17596787",
+      "label": "Kostek 2007 one arm",
+      "expect": "controlled trial"
+    },
+    {
+      "pmid": "3034620",
+      "label": "Mauriege 1987 adrenoceptors",
+      "expect": "lab study"
+    }
+  ]
+}

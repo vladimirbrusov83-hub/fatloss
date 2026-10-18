@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Can I Build Muscle and Lose Fat at the Same Time? | Fat Loss</title>
+<meta name="description" content="Yes for beginners, returners, and people carrying more fat. No meta-analysis on body recomposition exists, so this page is built on individual trials and says clearly where the evidence runs out.">
+<meta property="og:title" content="Can I Build Muscle and Lose Fat at the Same Time?">
+<meta property="og:description" content="A 4-week RCT: 40% deficit, 2.4 g/kg protein, +1.2 kg lean mass and -4.8 kg fat. Then the honest limits of that finding.">
+<meta property="og:type" content="article">
+<!-- TODO: set canonical once the domain is chosen -->
+<!-- <link rel="canonical" href="https://SUBDOMAIN.brusovcoach.org/build-muscle-lose-fat.html"> -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I build muscle and lose fat at the same time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on your training status and body fat. A randomised trial in 40 young men (Longland et al., American Journal of Clinical Nutrition, 2016) put both groups in a 40 percent energy deficit with resistance and interval training for four weeks; the group eating 2.4 g/kg protein gained 1.2 kg of lean body mass and lost 4.8 kg of fat, while the group eating 1.2 g/kg gained 0.1 kg lean mass and lost 3.5 kg of fat. A trial in elite athletes (Garthe et al., 2011) found lean mass rose 2.1 percent with slow weight loss. No systematic review or meta-analysis of body recomposition exists, so recommendations rest on individual trials in specific populations, mostly untrained or previously trained young men over short periods."
+      }
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f5f0e8;
+    --bg2: #ede8df;
+    --bg3: #e4ddd3;
+    --border: #cfc8bc;
+    --border-light: #bfb8aa;
+    --text: #1a1714;
+    --text-secondary: #4a4540;
+    --muted: #5a524a;
+    --accent: #d4500a;
+    --accent-bright: #e8601a;
+    --accent-dim: rgba(212,80,10,0.12);
+    --true: #1a8f4a;
+    --overstated: #b8790a;
+    --false: #c22a2a;
+    --depends: #4a6b8a;
+    --font-display: 'Barlow Condensed', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+    --radius: 6px;
+    --radius-lg: 10px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.72;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 28px; }
+  .narrow { max-width: 720px; margin: 0 auto; padding: 0 28px; }
+
+  /* ── TOP BAR ── */
+  .topbar {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(245,240,232,0.94);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+  }
+  .topbar-inner {
+    max-width: 1080px; margin: 0 auto; padding: 14px 28px;
+    display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;
+  }
+  .brand {
+    font-family: var(--font-display); font-weight: 800;
+    font-size: 21px; line-height: 1; letter-spacing: 0.06em; text-transform: uppercase;
+    text-decoration: none;
+  }
+  .brand span { color: var(--accent); }
+  .topbar-tag { font-size: 12px; color: var(--muted); letter-spacing: 0.04em; text-transform: uppercase; font-weight: 500; }
+  .topbar-back { margin-left: auto; font-size: 13px; color: var(--muted); text-decoration: none; }
+  .topbar-back:hover { color: var(--accent); }
+
+  /* ── VERDICT BADGE ── */
+  .verdict {
+    display: inline-block;
+    font-family: var(--font-display); font-weight: 800;
+    font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase;
+    padding: 4px 10px; border-radius: 3px; color: #fff;
+  }
+  .v-true { background: var(--true); }
+  .v-mostly { background: var(--true); opacity: .82; }
+  .v-overstated { background: var(--overstated); }
+  .v-false { background: var(--false); }
+  .v-depends { background: var(--depends); }
+
+  /* ── ARTICLE HEAD ── */
+  .art-head { padding: 56px 0 34px; border-bottom: 1px solid var(--border); }
+  h1 {
+    font-family: var(--font-display); font-weight: 800;
+    font-size: clamp(31px, 5.4vw, 52px); line-height: 1.04;
+    letter-spacing: -0.005em; text-transform: uppercase;
+    margin: 14px 0 0;
+  }
+  .answer {
+    margin-top: 22px; padding: 20px 22px;
+    background: var(--bg2); border-left: 3px solid var(--accent);
+    border-radius: 0 var(--radius) var(--radius) 0;
+  }
+  .answer-label {
+    font-family: var(--font-display); font-weight: 700; font-size: 12px;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent);
+    display: block; margin-bottom: 7px;
+  }
+  .answer p { font-size: 17px; line-height: 1.62; }
+
+  /* ── BODY ── */
+  article { padding: 38px 0 10px; }
+  article h2 {
+    font-family: var(--font-display); font-weight: 700;
+    font-size: 27px; line-height: 1.14; text-transform: uppercase;
+    margin: 42px 0 14px; letter-spacing: 0.005em;
+  }
+  article h2:first-child { margin-top: 0; }
+  article h3 {
+    font-family: var(--font-display); font-weight: 700;
+    font-size: 20px; text-transform: uppercase; margin: 28px 0 10px;
+  }
+  article p { margin-bottom: 16px; color: var(--text-secondary); }
+  article strong { color: var(--text); font-weight: 600; }
+  article ul, article ol { margin: 0 0 18px 20px; color: var(--text-secondary); }
+  article li { margin-bottom: 8px; }
+  article a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+
+  /* ── CITATION BLOCK ── */
+  .cite {
+    margin: 22px 0 26px; padding: 18px 20px;
+    background: #fff; border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+  }
+  .cite-type {
+    font-family: var(--font-display); font-weight: 800; font-size: 11.5px;
+    letter-spacing: 0.13em; text-transform: uppercase;
+    color: #fff; background: var(--accent);
+    padding: 3px 9px; border-radius: 3px; display: inline-block;
+  }
+  .cite-title { font-weight: 600; margin: 11px 0 4px; color: var(--text); line-height: 1.45; }
+  .cite-ref { font-size: 13.5px; color: var(--muted); }
+  .cite-stats {
+    margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border);
+    display: flex; gap: 26px; flex-wrap: wrap;
+  }
+  .stat-n {
+    font-family: var(--font-display); font-weight: 800; font-size: 25px;
+    line-height: 1; color: var(--accent);
+  }
+  .stat-l {
+    font-size: 11px; letter-spacing: 0.07em; text-transform: uppercase;
+    color: var(--muted); margin-top: 3px;
+  }
+  .cite a { font-size: 13.5px; }
+
+  /* ── WHO WAS STUDIED ── */
+  .who {
+    margin: 26px 0; padding: 18px 20px;
+    background: var(--bg3); border-radius: var(--radius-lg);
+    border: 1px dashed var(--border-light);
+  }
+  .who-label {
+    font-family: var(--font-display); font-weight: 800; font-size: 12px;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--text); display: block; margin-bottom: 8px;
+  }
+  .who p { margin: 0; font-size: 14.5px; }
+
+  /* ── DO THIS ── */
+  .todo {
+    margin: 30px 0; padding: 22px 24px;
+    background: var(--text); color: #ece7df;
+    border-radius: var(--radius-lg);
+  }
+  .todo h2 { color: #fff; margin: 0 0 12px; font-size: 23px; }
+  .todo ul { margin: 0 0 0 19px; color: #ddd6cc; }
+  .todo li { margin-bottom: 9px; }
+  .todo strong { color: #fff; }
+
+  /* ── CTA ── */
+  .cta {
+    margin: 42px 0 10px; padding: 26px;
+    background: var(--bg2); border: 1px solid var(--border);
+    border-radius: var(--radius-lg); text-align: center;
+  }
+  .cta h2 { margin: 0 0 8px; font-size: 25px; }
+  .cta p { margin-bottom: 18px; }
+  .btn {
+    display: inline-block; padding: 12px 26px;
+    background: var(--accent); color: #fff; text-decoration: none;
+    font-family: var(--font-display); font-weight: 700; font-size: 16px;
+    letter-spacing: 0.08em; text-transform: uppercase; border-radius: var(--radius);
+  }
+  .btn:hover { background: var(--accent-bright); }
+
+  /* ── RELATED ── */
+  .related { padding: 40px 0 0; border-top: 1px solid var(--border); margin-top: 44px; }
+  .related h2 { font-family: var(--font-display); font-weight: 700; font-size: 22px; text-transform: uppercase; margin-bottom: 16px; }
+  .related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px,1fr)); gap: 13px; }
+  .related-grid a {
+    padding: 15px 17px; background: var(--bg2); border: 1px solid var(--border);
+    border-radius: var(--radius); text-decoration: none;
+    font-family: var(--font-display); font-weight: 700; font-size: 17px;
+    text-transform: uppercase; line-height: 1.2;
+  }
+  .related-grid a:hover { border-color: var(--accent); background: #fff; }
+
+  /* ── FOOTER ── */
+  footer { margin-top: 44px; padding: 40px 0 56px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  .footer-links { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 16px; }
+
+  @media (max-width: 640px) {
+    .wrap, .narrow { padding: 0 18px; }
+    .topbar-inner { padding: 12px 18px; }
+    .topbar-tag { display: none; }
+    .art-head { padding: 36px 0 26px; }
+    .answer { padding: 17px 18px; }
+    .answer p { font-size: 16px; }
+    article h2 { font-size: 24px; margin: 34px 0 12px; }
+    .cite-stats { gap: 20px; }
+    .related-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ─────────────────────────────────────────────
+     ACADEMIC PASS: same look as the other hubs.
+     Serif headings, sentence case, hairline rules,
+     calm verdict labels. Accent: deep teal.
+     ───────────────────────────────────────────── */
+  :root {
+    --bg: #fdfcfa; --bg2: #f6f4ef; --bg3: #f0ede6;
+    --border: #e2ded4; --border-light: #c9c4b8;
+    --text: #15171b; --text-secondary: #3a3f47; --muted: #6a6f77;
+    --accent: #155e63; --accent-bright: #1b767c; --accent-dim: rgba(21,94,99,0.08);
+    --true: #1a7f45; --overstated: #9a6a08; --false: #a82525; --depends: #4a5d73;
+    --font-display: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+    --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --radius: 3px; --radius-lg: 4px;
+  }
+  body { font-size: 16px; line-height: 1.75; }
+  .topbar { background: rgba(253,252,250,0.95); }
+  .controls { background: rgba(253,252,250,0.95); }
+
+  /* Headings: serif, sentence case, no shouting */
+  h1, h2, h3, .brand, .card h2, article h2, article h3, .related h2, .related-grid a, .todo h2, .cta h2 {
+    font-family: var(--font-display); text-transform: none; letter-spacing: -0.006em;
+  }
+  .brand { font-size: 20px; font-weight: 600; letter-spacing: 0; }
+  .brand span { color: inherit; }
+  h1 { font-weight: 600; line-height: 1.12; }
+  .hero h1 { font-size: clamp(32px, 5vw, 46px); max-width: 22ch; }
+  .art-head h1 { font-size: clamp(28px, 4.4vw, 40px); }
+  .card h2 { font-size: 19px; font-weight: 600; line-height: 1.25; }
+  article h2 { font-size: 25px; font-weight: 600; }
+  article h3 { font-size: 19px; font-weight: 600; }
+  .related h2 { font-size: 21px; font-weight: 600; }
+  .related-grid a { font-size: 16px; font-weight: 600; line-height: 1.3; }
+  .todo h2 { font-size: 21px; font-weight: 600; }
+  .cta h2 { font-size: 24px; font-weight: 600; }
+
+  /* Small tracked caps stay for labels, in the sans face */
+  .eyebrow, .answer-label, .who-label, .cite-type, .verdict, .filter, .btn, .stat-l, .card-meta {
+    font-family: var(--font-body);
+  }
+  .eyebrow { font-size: 11px; letter-spacing: 0.22em; color: var(--muted); font-weight: 600; }
+  .answer-label { font-size: 11px; font-weight: 700; letter-spacing: 0.18em; }
+  .who-label { font-size: 11px; font-weight: 700; letter-spacing: 0.16em; color: var(--muted); }
+  .verdict { font-size: 10.5px; font-weight: 700; letter-spacing: 0.16em; padding: 3px 8px; border-radius: 2px; }
+  .filter { font-size: 11px; font-weight: 600; letter-spacing: 0.12em; background: none; }
+  .filter.active { background: var(--accent); }
+  .btn { font-size: 12px; font-weight: 700; letter-spacing: 0.14em; border-radius: 3px; }
+
+  /* Chrome reduction: hairline rules, no tinted boxes */
+  .hero { border-top: 2px solid var(--accent); }
+  .hero-note, .answer {
+    background: none; border-left: 2px solid var(--accent); border-radius: 0; padding: 4px 0 4px 24px;
+  }
+  .answer p { font-family: var(--font-display); font-size: 18.5px; line-height: 1.55; color: var(--text); }
+  .card { background: none; border-radius: var(--radius-lg); }
+  .card:hover { background: var(--bg2); border-color: var(--border-light); transform: none; }
+  .cite { border-radius: var(--radius-lg); }
+  .cite-type { background: none; color: var(--accent); padding: 0; font-size: 10.5px; font-weight: 700; letter-spacing: 0.16em; }
+  .stat-n { font-family: var(--font-display); font-weight: 600; color: var(--text); font-size: 24px; letter-spacing: -0.01em; }
+  .who { background: var(--bg2); border: 0; border-left: 2px solid var(--border-light); border-radius: 0; }
+  .todo { background: var(--bg2); color: var(--text); border-top: 2px solid var(--accent); border-radius: 0; }
+  .todo h2, .todo strong { color: var(--text); }
+  .todo ul { color: var(--text-secondary); }
+  .todo a { color: var(--accent); }
+  .cta { background: var(--bg2); border-top: 2px solid var(--accent); border-radius: 0; }
+  .related-grid a { background: none; border-radius: var(--radius-lg); }
+  .related-grid a:hover { background: var(--bg2); border-color: var(--border-light); }
+
+  /* Training hub link: filled accent button so it stands out */
+  .hub-btn {
+    font-family: var(--font-body); font-size: 11px; font-weight: 700; letter-spacing: 0.14em;
+    text-transform: uppercase; text-decoration: none; white-space: nowrap;
+    background: var(--accent); color: #fff; padding: 7px 12px; border-radius: 3px;
+  }
+  .hub-btn:hover { color: #fff; filter: brightness(1.15); }
+  .topbar-inner { align-items: center; }
+  @media (max-width: 640px) {
+    .topbar-back.all { display: none; }
+    .hub-btn { margin-left: auto; }
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html">Fat Loss</a>
+    <span class="topbar-tag">Coach Vladimir Brusov</span>
+    <a class="topbar-back all" href="index.html">← All questions</a>
+    <a class="hub-btn" href="https://brusovcoach.org">Training hub</a>
+  </div>
+</header>
+
+<main>
+  <div class="art-head">
+    <div class="narrow">
+      <span class="verdict v-depends">Depends</span>
+      <h1>Can I build muscle and lose fat at the same time?</h1>
+      <div class="answer">
+        <span class="answer-label">Short answer</span>
+        <p>Yes, if you are new to lifting, returning after a layoff, or carrying a fair amount of fat. If you are lean and trained, it becomes so slow that it is barely worth calling a strategy. <strong>There is no meta-analysis on this question</strong>, so treat every confident number you read, including these, with more caution than usual.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="narrow">
+    <article>
+
+      <h2>Start with what isn't known</h2>
+
+      <p>Every other page on this site leads with pooled evidence. This one can't. Searching PubMed for a systematic review or meta-analysis on body recomposition returns <strong>nothing</strong>. The trials are too few, too short, and too varied in population to pool. So what follows is individual studies, and the appropriate confidence is lower.</p>
+
+      <p>That matters because recomposition is exactly the topic where confident numbers get invented. Anyone who tells you how many grams of muscle you can add per week in a deficit is extrapolating from studies like the two below.</p>
+
+      <h2>What the research actually shows</h2>
+      <div class="cite">
+        <span class="cite-type">Randomised controlled trial</span>
+        <div class="cite-title">Higher compared with lower dietary protein during an energy deficit combined with intense exercise promotes greater lean mass gain and fat mass loss</div>
+        <div class="cite-ref">Longland TM et al., <em>American Journal of Clinical Nutrition</em>, 2016</div>
+        <div class="cite-stats">
+          <div><div class="stat-n">40</div><div class="stat-l">young men</div></div>
+          <div><div class="stat-n">4</div><div class="stat-l">weeks</div></div>
+          <div><div class="stat-n">+1.2 kg</div><div class="stat-l">lean mass, high-protein group</div></div>
+        </div>
+        <p style="margin:12px 0 0"><a href="https://pubmed.ncbi.nlm.nih.gov/26817506/" target="_blank" rel="noopener">Read it on PubMed &rarr;</a></p>
+      </div>
+      <p>A deliberately brutal design: a <strong>40% energy deficit</strong>, resistance training plus high-intensity intervals six days a week, for four weeks. One group ate 1.2 g/kg protein, the other 2.4 g/kg.</p>
+
+      <ul>
+        <li><strong>High-protein group: +1.2 kg lean mass, &minus;4.8 kg fat.</strong></li>
+        <li><strong>Low-protein group: +0.1 kg lean mass, &minus;3.5 kg fat.</strong></li>
+        <li>Both differences were statistically significant, and body composition was measured with a four-compartment model, the good method, not a bathroom scale.</li>
+      </ul>
+
+      <p>Gaining muscle in a 40% deficit sounds impossible, and it is genuinely remarkable. It also comes with the largest caveat on this page, in the "who was studied" box below.</p>
+
+      <p>The second trial approaches it from the opposite end: already-lean athletes, gentle deficit.</p>
+      <div class="cite">
+        <span class="cite-type">Randomised controlled trial</span>
+        <div class="cite-title">Effect of two different weight-loss rates on body composition and strength and power-related performance in elite athletes</div>
+        <div class="cite-ref">Garthe I et al., <em>International Journal of Sport Nutrition and Exercise Metabolism</em>, 2011</div>
+        <div class="cite-stats">
+          <div><div class="stat-n">24</div><div class="stat-l">elite athletes</div></div>
+          <div><div class="stat-n">+2.1</div><div class="stat-l">% lean mass, slow group</div></div>
+          <div><div class="stat-n">0.7</div><div class="stat-l">% bodyweight/week</div></div>
+        </div>
+        <p style="margin:12px 0 0"><a href="https://pubmed.ncbi.nlm.nih.gov/21558571/" target="_blank" rel="noopener">Read it on PubMed &rarr;</a></p>
+      </div>
+      <p>Elite athletes losing 0.7% of bodyweight a week gained 2.1% lean body mass while losing fat. The fast-loss group (1.4%/week) gained none. So recomposition happened even in trained athletes, but only at the slow rate, and the magnitude is far more modest than Longland's.</p>
+      <div class="who">
+        <span class="who-label">Who was studied</span>
+        <p>This is the caveat that governs the whole page. Longland's participants were <strong>young men described as recreationally active, not trained lifters</strong>, on a four-week supervised intervention with provided diets. Newcomers to structured resistance training have an enormous, temporary capacity to add muscle in almost any circumstance, and four weeks is short enough that some of the measured lean mass gain will be glycogen and water rather than contractile tissue. Garthe's athletes were genuinely trained, and their gain was correspondingly smaller. Take the pattern from these studies; do not take Longland's numbers as your forecast.</p>
+      </div>
+      <h2>Who can actually recomp</h2>
+
+      <p>The honest ranking, from most to least likely:</p>
+
+      <ul>
+        <li><strong>Beginners.</strong> First year of proper training. Recomposition here is close to automatic: expect it rather than plan for it.</li>
+        <li><strong>Returners.</strong> Rebuilding muscle you previously had is far faster than building it the first time. Months, not years.</li>
+        <li><strong>People with substantial fat to lose.</strong> Plenty of stored energy to fund muscle repair, so the deficit bites less.</li>
+        <li><strong>Anyone who's been training badly.</strong> If your programme has been unstructured, fixing the training alone can produce recomposition.</li>
+        <li><strong>Lean, trained lifters.</strong> Technically possible, practically marginal. If you're under 15% body fat with years of consistent training, you'll make faster progress running a proper <a href="clean-vs-dirty-bulk.html">bulk</a> and a proper <a href="how-fast-to-lose-weight.html">cut</a> than trying to do both at once.</li>
+      </ul>
+
+      <h2>The conditions that make it possible</h2>
+
+      <p>Every study where recomposition occurred had the same three things. They aren't optional extras:</p>
+
+      <ul>
+        <li><strong>High protein.</strong> Longland's effect <em>was</em> the protein: 2.4 g/kg versus 1.2. In a deficit, aim toward the top of the <a href="how-much-protein.html">usual range</a>, 2.0&ndash;2.4 g/kg.</li>
+        <li><strong>Hard resistance training with progression.</strong> The deficit tells your body to shed tissue; the training tells it which tissue to keep. No stimulus, no recomposition.</li>
+        <li><strong>A moderate deficit, unless you're a beginner.</strong> Longland got away with 40% because the participants were new and supervised. For a trained lifter, Garthe's slow approach is the model.</li>
+      </ul>
+
+      <h2>How to tell it's working</h2>
+
+      <p>Scale weight is useless here by definition; that's the whole point of recomposition. Track <strong>strength in the gym</strong> (going up in a deficit is the clearest sign muscle is being kept or built), <strong>waist circumference</strong>, and <strong>photos every four weeks</strong> in the same light. Expect it to be slow, and expect the scale to sit still for weeks while things change underneath it.</p>
+      <div class="todo">
+        <h2>What to do</h2>
+        <ul>
+          <li><strong>Be honest about which group you're in.</strong> Beginner or returner: recomp away. Lean and trained: run separate phases instead.</li>
+          <li><strong>Push protein to 2.0&ndash;2.4 g/kg/day.</strong> This is the variable that produced the effect in the strongest trial here.</li>
+          <li><strong>Use a small deficit of 10&ndash;20%.</strong> Aggressive deficits only worked in beginners under supervision.</li>
+          <li><strong>Train hard and progress the load.</strong> Recomposition is a training outcome that nutrition permits, not the other way round.</li>
+          <li><strong>Measure with strength, waist and photos.</strong> Give it 8&ndash;12 weeks before judging, and ignore the scale.</li>
+        </ul>
+      </div>
+
+      <div class="cta">
+        <h2>Want this set up around your actual life?</h2>
+        <p>I coach in person in St. Louis and online. First consultation is free.</p>
+        <a class="btn" href="https://brusovcoach.org/#contact">Get in touch</a>
+      </div>
+
+    </article>
+
+    <section class="related">
+      <h2>Related questions</h2>
+      <div class="related-grid">
+        <a href="how-fast-to-lose-weight.html">How fast can I lose weight?</a>
+        <a href="how-much-protein.html">How much protein do I need?</a>
+        <a href="clean-vs-dirty-bulk.html">How big should my surplus be?</a>
+        <a href="alcohol-and-gains.html">Will alcohol ruin my gains?</a>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="narrow">
+    <div class="footer-links">
+      <a href="index.html">All questions</a>
+      <a href="https://brusovcoach.org">Training hub</a>
+    </div>
+    <p>Every claim on this page links to the study behind it. Where the research is thin, the page says so.</p>
+    <p style="margin-top:10px">© <span id="yr"></span> Vladimir Brusov · Strength &amp; Conditioning Coach, St. Louis</p>
+  </div>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>

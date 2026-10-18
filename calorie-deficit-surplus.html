@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Do I Have to Be in a Calorie Deficit to Lose Fat? | Fat Loss</title>
+<meta name="description" content="Yes. Two metabolic-ward studies where every calorie in and out was measured show that energy balance decides fat loss, and that swapping carbs for fat barely moves the number.">
+<meta property="og:title" content="Do I Have to Be in a Calorie Deficit to Lose Fat?">
+<meta property="og:description" content="Locked-ward feeding studies settle it: energy balance decides fat loss. Macros are a small modifier, not a loophole.">
+<meta property="og:type" content="article">
+<!-- TODO: set canonical once the domain is chosen -->
+<!-- <link rel="canonical" href="https://SUBDOMAIN.brusovcoach.org/calorie-deficit-surplus.html"> -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I have to be in a calorie deficit to lose fat?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Controlled feeding studies conducted in metabolic wards, where every calorie eaten and every calorie burned was measured (Hall et al., Cell Metabolism 2015; Hall et al., American Journal of Clinical Nutrition 2016), show that body fat loss tracks energy balance. Cutting carbohydrate instead of fat, or eating a ketogenic diet at the same calories, did not produce more fat loss - in both trials the lower-carbohydrate arm lost slightly less body fat than the comparison, not more."
+      }
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f5f0e8;
+    --bg2: #ede8df;
+    --bg3: #e4ddd3;
+    --border: #cfc8bc;
+    --border-light: #bfb8aa;
+    --text: #1a1714;
+    --text-secondary: #4a4540;
+    --muted: #5a524a;
+    --accent: #d4500a;
+    --accent-bright: #e8601a;
+    --accent-dim: rgba(212,80,10,0.12);
+    --true: #1a8f4a;
+    --overstated: #b8790a;
+    --false: #c22a2a;
+    --depends: #4a6b8a;
+    --font-display: 'Barlow Condensed', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+    --radius: 6px;
+    --radius-lg: 10px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.72;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 28px; }
+  .narrow { max-width: 720px; margin: 0 auto; padding: 0 28px; }
+
+  /* ── TOP BAR ── */
+  .topbar {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(245,240,232,0.94);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+  }
+  .topbar-inner {
+    max-width: 1080px; margin: 0 auto; padding: 14px 28px;
+    display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;
+  }
+  .brand {
+    font-family: var(--font-display); font-weight: 800;
+    font-size: 21px; line-height: 1; letter-spacing: 0.06em; text-transform: uppercase;
+    text-decoration: none;
+  }
+  .brand span { color: var(--accent); }
+  .topbar-tag { font-size: 12px; color: var(--muted); letter-spacing: 0.04em; text-transform: uppercase; font-weight: 500; }
+  .topbar-back { margin-left: auto; font-size: 13px; color: var(--muted); text-decoration: none; }
+  .topbar-back:hover { color: var(--accent); }
+
+  /* ── VERDICT BADGE ── */
+  .verdict {
+    display: inline-block;
+    font-family: var(--font-display); font-weight: 800;
+    font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase;
+    padding: 4px 10px; border-radius: 3px; color: #fff;
+  }
+  .v-true { background: var(--true); }
+  .v-mostly { background: var(--true); opacity: .82; }
+  .v-overstated { background: var(--overstated); }
+  .v-false { background: var(--false); }
+  .v-depends { background: var(--depends); }
+
+  /* ── ARTICLE HEAD ── */
+  .art-head { padding: 56px 0 34px; border-bottom: 1px solid var(--border); }
+  h1 {
+    font-family: var(--font-display); font-weight: 800;
+    font-size: clamp(31px, 5.4vw, 52px); line-height: 1.04;
+    letter-spacing: -0.005em; text-transform: uppercase;
+    margin: 14px 0 0;
+  }
+  .answer {
+    margin-top: 22px; padding: 20px 22px;
+    background: var(--bg2); border-left: 3px solid var(--accent);
+    border-radius: 0 var(--radius) var(--radius) 0;
+  }
+  .answer-label {
+    font-family: var(--font-display); font-weight: 700; font-size: 12px;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent);
+    display: block; margin-bottom: 7px;
+  }
+  .answer p { font-size: 17px; line-height: 1.62; }
+
+  /* ── BODY ── */
+  article { padding: 38px 0 10px; }
+  article h2 {
+    font-family: var(--font-display); font-weight: 700;
+    font-size: 27px; line-height: 1.14; text-transform: uppercase;
+    margin: 42px 0 14px; letter-spacing: 0.005em;
+  }
+  article h2:first-child { margin-top: 0; }
+  article h3 {
+    font-family: var(--font-display); font-weight: 700;
+    font-size: 20px; text-transform: uppercase; margin: 28px 0 10px;
+  }
+  article p { margin-bottom: 16px; color: var(--text-secondary); }
+  article strong { color: var(--text); font-weight: 600; }
+  article ul, article ol { margin: 0 0 18px 20px; color: var(--text-secondary); }
+  article li { margin-bottom: 8px; }
+  article a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+
+  /* ── CITATION BLOCK ── */
+  .cite {
+    margin: 22px 0 26px; padding: 18px 20px;
+    background: #fff; border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+  }
+  .cite-type {
+    font-family: var(--font-display); font-weight: 800; font-size: 11.5px;
+    letter-spacing: 0.13em; text-transform: uppercase;
+    color: #fff; background: var(--accent);
+    padding: 3px 9px; border-radius: 3px; display: inline-block;
+  }
+  .cite-title { font-weight: 600; margin: 11px 0 4px; color: var(--text); line-height: 1.45; }
+  .cite-ref { font-size: 13.5px; color: var(--muted); }
+  .cite-stats {
+    margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border);
+    display: flex; gap: 26px; flex-wrap: wrap;
+  }
+  .stat-n {
+    font-family: var(--font-display); font-weight: 800; font-size: 25px;
+    line-height: 1; color: var(--accent);
+  }
+  .stat-l {
+    font-size: 11px; letter-spacing: 0.07em; text-transform: uppercase;
+    color: var(--muted); margin-top: 3px;
+  }
+  .cite a { font-size: 13.5px; }
+
+  /* ── WHO WAS STUDIED ── */
+  .who {
+    margin: 26px 0; padding: 18px 20px;
+    background: var(--bg3); border-radius: var(--radius-lg);
+    border: 1px dashed var(--border-light);
+  }
+  .who-label {
+    font-family: var(--font-display); font-weight: 800; font-size: 12px;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--text); display: block; margin-bottom: 8px;
+  }
+  .who p { margin: 0; font-size: 14.5px; }
+
+  /* ── DO THIS ── */
+  .todo {
+    margin: 30px 0; padding: 22px 24px;
+    background: var(--text); color: #ece7df;
+    border-radius: var(--radius-lg);
+  }
+  .todo h2 { color: #fff; margin: 0 0 12px; font-size: 23px; }
+  .todo ul { margin: 0 0 0 19px; color: #ddd6cc; }
+  .todo li { margin-bottom: 9px; }
+  .todo strong { color: #fff; }
+
+  /* ── CTA ── */
+  .cta {
+    margin: 42px 0 10px; padding: 26px;
+    background: var(--bg2); border: 1px solid var(--border);
+    border-radius: var(--radius-lg); text-align: center;
+  }
+  .cta h2 { margin: 0 0 8px; font-size: 25px; }
+  .cta p { margin-bottom: 18px; }
+  .btn {
+    display: inline-block; padding: 12px 26px;
+    background: var(--accent); color: #fff; text-decoration: none;
+    font-family: var(--font-display); font-weight: 700; font-size: 16px;
+    letter-spacing: 0.08em; text-transform: uppercase; border-radius: var(--radius);
+  }
+  .btn:hover { background: var(--accent-bright); }
+
+  /* ── RELATED ── */
+  .related { padding: 40px 0 0; border-top: 1px solid var(--border); margin-top: 44px; }
+  .related h2 { font-family: var(--font-display); font-weight: 700; font-size: 22px; text-transform: uppercase; margin-bottom: 16px; }
+  .related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px,1fr)); gap: 13px; }
+  .related-grid a {
+    padding: 15px 17px; background: var(--bg2); border: 1px solid var(--border);
+    border-radius: var(--radius); text-decoration: none;
+    font-family: var(--font-display); font-weight: 700; font-size: 17px;
+    text-transform: uppercase; line-height: 1.2;
+  }
+  .related-grid a:hover { border-color: var(--accent); background: #fff; }
+
+  /* ── FOOTER ── */
+  footer { margin-top: 44px; padding: 40px 0 56px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  .footer-links { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 16px; }
+
+  @media (max-width: 640px) {
+    .wrap, .narrow { padding: 0 18px; }
+    .topbar-inner { padding: 12px 18px; }
+    .topbar-tag { display: none; }
+    .art-head { padding: 36px 0 26px; }
+    .answer { padding: 17px 18px; }
+    .answer p { font-size: 16px; }
+    article h2 { font-size: 24px; margin: 34px 0 12px; }
+    .cite-stats { gap: 20px; }
+    .related-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ─────────────────────────────────────────────
+     ACADEMIC PASS: same look as the other hubs.
+     Serif headings, sentence case, hairline rules,
+     calm verdict labels. Accent: deep teal.
+     ───────────────────────────────────────────── */
+  :root {
+    --bg: #fdfcfa; --bg2: #f6f4ef; --bg3: #f0ede6;
+    --border: #e2ded4; --border-light: #c9c4b8;
+    --text: #15171b; --text-secondary: #3a3f47; --muted: #6a6f77;
+    --accent: #155e63; --accent-bright: #1b767c; --accent-dim: rgba(21,94,99,0.08);
+    --true: #1a7f45; --overstated: #9a6a08; --false: #a82525; --depends: #4a5d73;
+    --font-display: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+    --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --radius: 3px; --radius-lg: 4px;
+  }
+  body { font-size: 16px; line-height: 1.75; }
+  .topbar { background: rgba(253,252,250,0.95); }
+  .controls { background: rgba(253,252,250,0.95); }
+
+  /* Headings: serif, sentence case, no shouting */
+  h1, h2, h3, .brand, .card h2, article h2, article h3, .related h2, .related-grid a, .todo h2, .cta h2 {
+    font-family: var(--font-display); text-transform: none; letter-spacing: -0.006em;
+  }
+  .brand { font-size: 20px; font-weight: 600; letter-spacing: 0; }
+  .brand span { color: inherit; }
+  h1 { font-weight: 600; line-height: 1.12; }
+  .hero h1 { font-size: clamp(32px, 5vw, 46px); max-width: 22ch; }
+  .art-head h1 { font-size: clamp(28px, 4.4vw, 40px); }
+  .card h2 { font-size: 19px; font-weight: 600; line-height: 1.25; }
+  article h2 { font-size: 25px; font-weight: 600; }
+  article h3 { font-size: 19px; font-weight: 600; }
+  .related h2 { font-size: 21px; font-weight: 600; }
+  .related-grid a { font-size: 16px; font-weight: 600; line-height: 1.3; }
+  .todo h2 { font-size: 21px; font-weight: 600; }
+  .cta h2 { font-size: 24px; font-weight: 600; }
+
+  /* Small tracked caps stay for labels, in the sans face */
+  .eyebrow, .answer-label, .who-label, .cite-type, .verdict, .filter, .btn, .stat-l, .card-meta {
+    font-family: var(--font-body);
+  }
+  .eyebrow { font-size: 11px; letter-spacing: 0.22em; color: var(--muted); font-weight: 600; }
+  .answer-label { font-size: 11px; font-weight: 700; letter-spacing: 0.18em; }
+  .who-label { font-size: 11px; font-weight: 700; letter-spacing: 0.16em; color: var(--muted); }
+  .verdict { font-size: 10.5px; font-weight: 700; letter-spacing: 0.16em; padding: 3px 8px; border-radius: 2px; }
+  .filter { font-size: 11px; font-weight: 600; letter-spacing: 0.12em; background: none; }
+  .filter.active { background: var(--accent); }
+  .btn { font-size: 12px; font-weight: 700; letter-spacing: 0.14em; border-radius: 3px; }
+
+  /* Chrome reduction: hairline rules, no tinted boxes */
+  .hero { border-top: 2px solid var(--accent); }
+  .hero-note, .answer {
+    background: none; border-left: 2px solid var(--accent); border-radius: 0; padding: 4px 0 4px 24px;
+  }
+  .answer p { font-family: var(--font-display); font-size: 18.5px; line-height: 1.55; color: var(--text); }
+  .card { background: none; border-radius: var(--radius-lg); }
+  .card:hover { background: var(--bg2); border-color: var(--border-light); transform: none; }
+  .cite { border-radius: var(--radius-lg); }
+  .cite-type { background: none; color: var(--accent); padding: 0; font-size: 10.5px; font-weight: 700; letter-spacing: 0.16em; }
+  .stat-n { font-family: var(--font-display); font-weight: 600; color: var(--text); font-size: 24px; letter-spacing: -0.01em; }
+  .who { background: var(--bg2); border: 0; border-left: 2px solid var(--border-light); border-radius: 0; }
+  .todo { background: var(--bg2); color: var(--text); border-top: 2px solid var(--accent); border-radius: 0; }
+  .todo h2, .todo strong { color: var(--text); }
+  .todo ul { color: var(--text-secondary); }
+  .todo a { color: var(--accent); }
+  .cta { background: var(--bg2); border-top: 2px solid var(--accent); border-radius: 0; }
+  .related-grid a { background: none; border-radius: var(--radius-lg); }
+  .related-grid a:hover { background: var(--bg2); border-color: var(--border-light); }
+
+  /* Training hub link: filled accent button so it stands out */
+  .hub-btn {
+    font-family: var(--font-body); font-size: 11px; font-weight: 700; letter-spacing: 0.14em;
+    text-transform: uppercase; text-decoration: none; white-space: nowrap;
+    background: var(--accent); color: #fff; padding: 7px 12px; border-radius: 3px;
+  }
+  .hub-btn:hover { color: #fff; filter: brightness(1.15); }
+  .topbar-inner { align-items: center; }
+  @media (max-width: 640px) {
+    .topbar-back.all { display: none; }
+    .hub-btn { margin-left: auto; }
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html">Fat Loss</a>
+    <span class="topbar-tag">Coach Vladimir Brusov</span>
+    <a class="topbar-back all" href="index.html">← All questions</a>
+    <a class="hub-btn" href="https://brusovcoach.org">Training hub</a>
+  </div>
+</header>
+
+<main>
+  <div class="art-head">
+    <div class="narrow">
+      <span class="verdict v-true">True</span>
+      <h1>Do I have to be in a calorie deficit to lose fat?</h1>
+      <div class="answer">
+        <span class="answer-label">Short answer</span>
+        <p>Yes. There is no arrangement of foods that lets you lose body fat while eating more energy than you burn. What macros change is the <strong>size of the effect</strong>, and the change is small.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="narrow">
+    <article>
+
+      <h2>What the research actually shows</h2>
+
+      <p>Almost every diet study has the same fatal flaw: it relies on people telling you what they ate. They don't know, and they under-report by 30&ndash;50% without meaning to. So the honest way to answer this question is to lock people in a room where every gram of food is weighed and every breath is measured. Two studies did exactly that, and both were designed to give the low-carb answer a fair chance to win.</p>
+      <div class="cite">
+        <span class="cite-type">Controlled feeding trial</span>
+        <div class="cite-title">Calorie for Calorie, Dietary Fat Restriction Results in More Body Fat Loss than Carbohydrate Restriction in People with Obesity</div>
+        <div class="cite-ref">Hall KD et al., <em>Cell Metabolism</em>, 2015</div>
+        <div class="cite-stats">
+          <div><div class="stat-n">19</div><div class="stat-l">adults, metabolic ward</div></div>
+          <div><div class="stat-n">6</div><div class="stat-l">days per diet</div></div>
+          <div><div class="stat-n">89 vs 53</div><div class="stat-l">g fat lost per day</div></div>
+        </div>
+        <p style="margin:12px 0 0"><a href="https://pubmed.ncbi.nlm.nih.gov/26278052/" target="_blank" rel="noopener">Read it on PubMed &rarr;</a></p>
+      </div>
+      <p>Same calories, same protein, same exercise. Cutting fat produced <strong>89 g of body fat lost per day</strong>; cutting carbohydrate produced <strong>53 g</strong>. Carbohydrate restriction did raise fat oxidation, exactly as the low-carb model predicts, and it still lost less fat, because burning fat and losing fat are not the same thing when you're also eating more of it.</p>
+
+      <p>The obvious objection is that six days is too short and the diet wasn't ketogenic. So the same lab ran it again, longer and in ketosis.</p>
+      <div class="cite">
+        <span class="cite-type">Controlled feeding trial</span>
+        <div class="cite-title">Energy expenditure and body composition changes after an isocaloric ketogenic diet in overweight and obese men</div>
+        <div class="cite-ref">Hall KD et al., <em>American Journal of Clinical Nutrition</em>, 2016</div>
+        <div class="cite-stats">
+          <div><div class="stat-n">17</div><div class="stat-l">men, metabolic ward</div></div>
+          <div><div class="stat-n">4+4</div><div class="stat-l">weeks, baseline then keto</div></div>
+          <div><div class="stat-n">57&ndash;151</div><div class="stat-l">kcal/day extra burned</div></div>
+        </div>
+        <p style="margin:12px 0 0"><a href="https://pubmed.ncbi.nlm.nih.gov/27385608/" target="_blank" rel="noopener">Read it on PubMed &rarr;</a></p>
+      </div>
+      <p>Four weeks of high-carbohydrate baseline, then four weeks of a ketogenic diet at identical calories and protein. Energy expenditure did rise on keto, by <strong>57 to 151 kcal/day</strong> depending on the measurement method. That is a real metabolic advantage, and it is also the entire size of the effect. Meanwhile <strong>body fat loss slowed down</strong> during the ketogenic phase.</p>
+
+      <p>So the strongest version of the "calories don't matter" argument, tested under the strictest conditions available, produced an advantage worth about one banana a day, in the opposite direction from the fat loss it was supposed to explain.</p>
+      <div class="who">
+        <span class="who-label">Who was studied</span>
+        <p>Adults with obesity, all male in the 2016 study, confined to a metabolic ward for weeks. That cuts both ways. The control is unmatched (nobody forgot to log the olive oil), but these are not lean trained lifters, the diets ran for days to weeks rather than months, and adherence was enforced by the walls. What generalises is the physiology, not the compliance.</p>
+      </div>
+      <h2>Why "calories don't count" keeps selling</h2>
+
+      <p>Because diets that work do something else on the way. Cut carbohydrate hard and you lose several kilos of water and glycogen in the first week, drop most processed food by accident, and often eat more protein, which is filling. The scale moves fast, and the mechanism you're handed is "insulin", not "you ate 600 fewer calories without noticing."</p>
+
+      <p>This matters practically, because if you believe the macro did the work, you'll respond to a stall by cutting carbs further instead of looking at portion sizes. The stall is almost never metabolic . See <a href="starvation-mode.html">what actually happens to your metabolism in a deficit</a>.</p>
+
+      <h2>The surplus side of the same coin</h2>
+
+      <p>It runs the other way too. You cannot build meaningful muscle tissue out of nothing, which is why bulking exists. But the amount of surplus required is far smaller than the internet suggests, and the excess above that becomes fat with the same indifference . See <a href="clean-vs-dirty-bulk.html">how big a surplus you actually need</a>.</p>
+      <div class="todo">
+        <h2>What to do</h2>
+        <ul>
+          <li><strong>Set the deficit first, then argue about macros.</strong> Roughly 20&ndash;25% below maintenance is a sane starting point.</li>
+          <li><strong>Pick the diet you can adhere to.</strong> Low-carb, high-carb, and everything between produce the same fat loss at matched calories and protein. Adherence is the variable you actually control.</li>
+          <li><strong>Protect muscle with protein and lifting.</strong> Around 1.6&ndash;2.2 g/kg/day . See <a href="how-much-protein.html">the protein page</a>.</li>
+          <li><strong>If the scale stalls for 3+ weeks, audit intake before you audit your metabolism.</strong> Weigh a week's food honestly, including oils, drinks, and weekends.</li>
+          <li><strong>Cap the rate.</strong> Losing faster than about 1% of bodyweight a week costs you muscle . See <a href="how-fast-to-lose-weight.html">how fast to lose</a>.</li>
+        </ul>
+      </div>
+
+      <div class="cta">
+        <h2>Want this set up around your actual life?</h2>
+        <p>I coach in person in St. Louis and online. First consultation is free.</p>
+        <a class="btn" href="https://brusovcoach.org/#contact">Get in touch</a>
+      </div>
+
+    </article>
+
+    <section class="related">
+      <h2>Related questions</h2>
+      <div class="related-grid">
+        <a href="how-fast-to-lose-weight.html">How fast can I lose weight?</a>
+        <a href="starvation-mode.html">Is starvation mode real?</a>
+        <a href="how-much-protein.html">How much protein do I need?</a>
+        <a href="alcohol-and-gains.html">Will alcohol ruin my gains?</a>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="narrow">
+    <div class="footer-links">
+      <a href="index.html">All questions</a>
+      <a href="https://brusovcoach.org">Training hub</a>
+    </div>
+    <p>Every claim on this page links to the study behind it. Where the research is thin, the page says so.</p>
+    <p style="margin-top:10px">© <span id="yr"></span> Vladimir Brusov · Strength &amp; Conditioning Coach, St. Louis</p>
+  </div>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>

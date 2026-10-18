@@ -1,0 +1,770 @@
+{
+  "how-much-protein": [
+    {
+      "pmid": "28698222",
+      "title": "A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults.",
+      "journal": "Br J Sports Med",
+      "year": "2018",
+      "first_author": "Morton RW",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28698222/",
+      "label": "Morton 2018",
+      "expected": "meta-analysis",
+      "is_sr_or_ma": true
+    },
+    {
+      "pmid": "33300582",
+      "title": "Dose-response relationship between protein intake and muscle mass increase: a systematic review and meta-analysis of randomized controlled trials.",
+      "journal": "Nutr Rev",
+      "year": "2020",
+      "first_author": "Tagawa R",
+      "publication_types": [],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33300582/",
+      "label": "Tagawa 2021 dose-response",
+      "expected": "meta-analysis",
+      "is_sr_or_ma": true
+    },
+    {
+      "pmid": "24092765",
+      "title": "A systematic review of dietary protein during caloric restriction in resistance trained lean athletes: a case for higher intakes.",
+      "journal": "Int J Sport Nutr Exerc Metab",
+      "year": "2014",
+      "first_author": "Helms ER",
+      "publication_types": [
+        "Systematic Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24092765/",
+      "label": "Helms 2014 protein for lean athletes in deficit",
+      "expected": "systematic review",
+      "is_sr_or_ma": true
+    }
+  ],
+  "calorie-deficit-surplus": [
+    {
+      "pmid": "26278052",
+      "title": "Calorie for Calorie, Dietary Fat Restriction Results in More Body Fat Loss than Carbohydrate Restriction in People with Obesity.",
+      "journal": "Cell Metab",
+      "year": "2015",
+      "first_author": "Hall KD",
+      "publication_types": [
+        "Research Support, N.I.H., Intramural"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26278052/",
+      "label": "Hall 2015 metabolic ward",
+      "expected": "RCT",
+      "is_sr_or_ma": false
+    },
+    {
+      "pmid": "27385608",
+      "title": "Energy expenditure and body composition changes after an isocaloric ketogenic diet in overweight and obese men.",
+      "journal": "Am J Clin Nutr",
+      "year": "2016",
+      "first_author": "Hall KD",
+      "publication_types": [
+        "Clinical Trial"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27385608/",
+      "label": "Hall 2016 isocaloric keto",
+      "expected": "controlled feeding",
+      "is_sr_or_ma": false
+    }
+  ],
+  "anabolic-window": [
+    {
+      "pmid": "24299050",
+      "title": "The effect of protein timing on muscle strength and hypertrophy: a meta-analysis.",
+      "journal": "J Int Soc Sports Nutr",
+      "year": "2013",
+      "first_author": "Schoenfeld BJ",
+      "publication_types": [],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24299050/",
+      "label": "Schoenfeld 2013 protein timing",
+      "expected": "meta-analysis",
+      "is_sr_or_ma": true
+    }
+  ],
+  "protein-and-kidneys": [
+    {
+      "pmid": "30383278",
+      "title": "Changes in Kidney Function Do Not Differ between Healthy Adults Consuming Higher- Compared with Lower- or Normal-Protein Diets: A Systematic Review and Meta-Analysis.",
+      "journal": "J Nutr",
+      "year": "2018",
+      "first_author": "Devries MC",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30383278/",
+      "label": "Devries 2018 kidney function",
+      "expected": "meta-analysis",
+      "is_sr_or_ma": true
+    }
+  ],
+  "six-meals-a-day": [
+    {
+      "pmid": "26024494",
+      "title": "Effects of meal frequency on weight loss and body composition: a meta-analysis.",
+      "journal": "Nutr Rev",
+      "year": "2015",
+      "first_author": "Schoenfeld BJ",
+      "publication_types": [
+        "Meta-Analysis",
+        "Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26024494/",
+      "label": "Schoenfeld 2015 meal frequency",
+      "expected": "meta-analysis",
+      "is_sr_or_ma": true
+    }
+  ],
+  "eating-late-at-night": [
+    {
+      "pmid": "36198293",
+      "title": "Late isocaloric eating increases hunger, decreases energy expenditure, and modifies metabolic pathways in adults with overweight and obesity.",
+      "journal": "Cell Metab",
+      "year": "2022",
+      "first_author": "Vujovi\u0107 N",
+      "publication_types": [
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36198293/",
+      "label": "Vujovi\u0107 2022 late isocaloric eating",
+      "expected": "crossover RCT",
+      "is_sr_or_ma": false
+    }
+  ],
+  "fasted-cardio": [
+    {
+      "pmid": "29315892",
+      "title": "Effects of fasted vs fed-state exercise on performance and post-exercise metabolism: A systematic review and meta-analysis.",
+      "journal": "Scand J Med Sci Sports",
+      "year": "2018",
+      "first_author": "Aird TP",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29315892/",
+      "label": "Aird 2018 fasted vs fed",
+      "expected": "systematic review/meta-analysis",
+      "is_sr_or_ma": true
+    }
+  ],
+  "how-fast-to-lose-weight": [
+    {
+      "pmid": "21558571",
+      "title": "Effect of two different weight-loss rates on body composition and strength and power-related performance in elite athletes.",
+      "journal": "Int J Sport Nutr Exerc Metab",
+      "year": "2011",
+      "first_author": "Garthe I",
+      "publication_types": [
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21558571/",
+      "label": "Garthe 2011 rate of weight loss in athletes",
+      "expected": "RCT",
+      "is_sr_or_ma": false
+    },
+    {
+      "pmid": "31247944",
+      "title": "Nutrition Recommendations for Bodybuilders in the Off-Season: A Narrative Review.",
+      "journal": "Sports (Basel)",
+      "year": "2019",
+      "first_author": "Iraki J",
+      "publication_types": [
+        "Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31247944/",
+      "label": "Iraki 2019 off-season",
+      "expected": "narrative review",
+      "is_sr_or_ma": false
+    }
+  ],
+  "clean-vs-dirty-bulk": [
+    {
+      "pmid": "31482093",
+      "title": "Is an Energy Surplus Required to Maximize Skeletal Muscle Hypertrophy Associated With Resistance Training.",
+      "journal": "Front Nutr",
+      "year": "2019",
+      "first_author": "Slater GJ",
+      "publication_types": [
+        "Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31482093/",
+      "label": "Slater 2019 energy surplus",
+      "expected": "review",
+      "is_sr_or_ma": false
+    },
+    {
+      "pmid": "31247944",
+      "title": "Nutrition Recommendations for Bodybuilders in the Off-Season: A Narrative Review.",
+      "journal": "Sports (Basel)",
+      "year": "2019",
+      "first_author": "Iraki J",
+      "publication_types": [
+        "Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31247944/",
+      "label": "Iraki 2019 off-season",
+      "expected": "narrative review",
+      "is_sr_or_ma": false
+    }
+  ],
+  "plant-vs-animal-protein": [
+    {
+      "pmid": "33670701",
+      "title": "Animal Protein versus Plant Protein in Supporting Lean Mass and Muscle Strength: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+      "journal": "Nutrients",
+      "year": "2021",
+      "first_author": "Lim MT",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33670701/",
+      "label": "Lim 2021 animal vs plant",
+      "expected": "systematic review/meta-analysis",
+      "is_sr_or_ma": true
+    },
+    {
+      "pmid": "39813010",
+      "title": "Effect of Plant Versus Animal Protein on Muscle Mass, Strength, Physical Performance, and Sarcopenia: A Systematic Review and Meta-analysis of Randomized Controlled Trials.",
+      "journal": "Nutr Rev",
+      "year": "2025",
+      "first_author": "Reid-McCann RJ",
+      "publication_types": [
+        "Systematic Review",
+        "Meta-Analysis"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39813010/",
+      "label": "Reid-McCann 2025",
+      "expected": "systematic review/meta-analysis",
+      "is_sr_or_ma": true
+    }
+  ],
+  "intermittent-fasting": [
+    {
+      "pmid": "32781538",
+      "title": "The Effects of Intermittent Fasting Combined with Resistance Training on Lean Body Mass: A Systematic Review of Human Studies.",
+      "journal": "Nutrients",
+      "year": "2020",
+      "first_author": "Keenan S",
+      "publication_types": [
+        "Systematic Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32781538/",
+      "label": "Keenan 2020 IF + RT",
+      "expected": "systematic review",
+      "is_sr_or_ma": true
+    },
+    {
+      "pmid": "33984329",
+      "title": "Effects of intermittent fasting combined with resistance training on body composition: a systematic review and meta-analysis.",
+      "journal": "Physiol Behav",
+      "year": "2021",
+      "first_author": "Ashtary-Larky D",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33984329/",
+      "label": "Ashtary-Larky 2021",
+      "expected": "systematic review/meta-analysis",
+      "is_sr_or_ma": true
+    }
+  ],
+  "starvation-mode": [
+    {
+      "pmid": "33762040",
+      "title": "Does adaptive thermogenesis occur after weight loss in adults? A systematic review.",
+      "journal": "Br J Nutr",
+      "year": "2022",
+      "first_author": "Nunes CL",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33762040/",
+      "label": "Nunes 2022 adaptive thermogenesis SR",
+      "expected": "systematic review",
+      "is_sr_or_ma": true
+    },
+    {
+      "pmid": "27136388",
+      "title": "Persistent metabolic adaptation 6 years after \"The Biggest Loser\" competition.",
+      "journal": "Obesity (Silver Spring)",
+      "year": "2016",
+      "first_author": "Fothergill E",
+      "publication_types": [],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27136388/",
+      "label": "Fothergill 2016 Biggest Loser follow-up",
+      "expected": "observational follow-up",
+      "is_sr_or_ma": false
+    }
+  ],
+  "build-muscle-lose-fat": [
+    {
+      "pmid": "26817506",
+      "title": "Higher compared with lower dietary protein during an energy deficit combined with intense exercise promotes greater lean mass gain and fat mass loss: a randomized trial.",
+      "journal": "Am J Clin Nutr",
+      "year": "2016",
+      "first_author": "Longland TM",
+      "publication_types": [
+        "Comparative Study",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26817506/",
+      "label": "Longland 2016 high-protein deficit RCT",
+      "expected": "RCT",
+      "is_sr_or_ma": false
+    },
+    {
+      "pmid": "21558571",
+      "title": "Effect of two different weight-loss rates on body composition and strength and power-related performance in elite athletes.",
+      "journal": "Int J Sport Nutr Exerc Metab",
+      "year": "2011",
+      "first_author": "Garthe I",
+      "publication_types": [
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21558571/",
+      "label": "Garthe 2011 rate of weight loss in athletes",
+      "expected": "RCT",
+      "is_sr_or_ma": false
+    }
+  ],
+  "alcohol-and-gains": [
+    {
+      "pmid": "24533082",
+      "title": "Alcohol ingestion impairs maximal post-exercise rates of myofibrillar protein synthesis following a single bout of concurrent training.",
+      "journal": "PLoS One",
+      "year": "2014",
+      "first_author": "Parr EB",
+      "publication_types": [
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24533082/",
+      "label": "Parr 2014 alcohol + MPS",
+      "expected": "RCT",
+      "is_sr_or_ma": false
+    }
+  ],
+  "protein-per-meal-30g": [
+    {
+      "pmid": "29497353",
+      "title": "How much protein can the body use in a single meal for muscle-building? Implications for daily protein distribution.",
+      "journal": "J Int Soc Sports Nutr",
+      "year": "2018",
+      "first_author": "Schoenfeld BJ",
+      "publication_types": [
+        "Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29497353/",
+      "label": "Schoenfeld 2018 per-meal protein dose",
+      "expected": "review",
+      "is_sr_or_ma": false
+    }
+  ],
+  "how-many-calories": [
+    {
+      "pmid": "15883556",
+      "title": "Comparison of predictive equations for resting metabolic rate in healthy nonobese and obese adults: a systematic review.",
+      "journal": "J Am Diet Assoc",
+      "year": "2005",
+      "first_author": "Frankenfield D",
+      "publication_types": [
+        "Comparative Study",
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15883556/",
+      "label": "Frankenfield 2005 RMR equations",
+      "expected": "systematic review",
+      "is_sr_or_ma": true
+    },
+    {
+      "pmid": "21872751",
+      "title": "Quantification of the effect of energy imbalance on bodyweight.",
+      "journal": "Lancet",
+      "year": "2011",
+      "first_author": "Hall KD",
+      "publication_types": [
+        "Comment",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, N.I.H., Intramural",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, P.H.S."
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21872751/",
+      "label": "Hall 2011 dynamic energy balance",
+      "expected": "modelling",
+      "is_sr_or_ma": false
+    }
+  ],
+  "weight-stalled": [
+    {
+      "pmid": "37395124",
+      "title": "Changes in body weight and body composition during the menstrual cycle.",
+      "journal": "Am J Hum Biol",
+      "year": "2023",
+      "first_author": "Kanellakis S",
+      "publication_types": [],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37395124/",
+      "label": "Kanellakis 2023 menstrual weight",
+      "expected": "observational",
+      "is_sr_or_ma": false
+    },
+    {
+      "pmid": "26293454",
+      "title": "Is self-weighing an effective tool for weight loss: a systematic literature review and meta-analysis.",
+      "journal": "Int J Behav Nutr Phys Act",
+      "year": "2015",
+      "first_author": "Madigan CD",
+      "publication_types": [
+        "Meta-Analysis",
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26293454/",
+      "label": "Madigan 2015 self-weighing",
+      "expected": "meta-analysis",
+      "is_sr_or_ma": true
+    }
+  ],
+  "diet-breaks": [
+    {
+      "pmid": "28925405",
+      "title": "Intermittent energy restriction improves weight loss efficiency in obese men: the MATADOR study.",
+      "journal": "Int J Obes (Lond)",
+      "year": "2018",
+      "first_author": "Byrne NM",
+      "publication_types": [
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28925405/",
+      "label": "Byrne 2018 MATADOR",
+      "expected": "RCT",
+      "is_sr_or_ma": false
+    },
+    {
+      "pmid": "33587549",
+      "title": "Continuous versus Intermittent Dieting for Fat Loss and Fat-Free Mass Retention in Resistance-trained Adults: The ICECAP Trial.",
+      "journal": "Med Sci Sports Exerc",
+      "year": "2021",
+      "first_author": "Peos JJ",
+      "publication_types": [
+        "Comparative Study",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33587549/",
+      "label": "Peos 2021 ICECAP primary",
+      "expected": "RCT",
+      "is_sr_or_ma": false
+    },
+    {
+      "pmid": "33630880",
+      "title": "A 1-week diet break improves muscle endurance during an intermittent dieting regime in adult athletes: A pre-specified secondary analysis of the ICECAP trial.",
+      "journal": "PLoS One",
+      "year": "2021",
+      "first_author": "Peos JJ",
+      "publication_types": [
+        "Clinical Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33630880/",
+      "label": "Peos 2021 ICECAP diet-break secondary",
+      "expected": "secondary analysis",
+      "is_sr_or_ma": false
+    }
+  ],
+  "set-point": [
+    {
+      "pmid": "22065844",
+      "title": "Set points, settling points and some alternative models: theoretical options to understand how genes and environments combine to regulate body adiposity.",
+      "journal": "Dis Model Mech",
+      "year": "2011",
+      "first_author": "Speakman JR",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22065844/",
+      "label": "Speakman 2011 set/settling points",
+      "expected": "review",
+      "is_sr_or_ma": false
+    },
+    {
+      "pmid": "23404923",
+      "title": "Adaptive thermogenesis with weight loss in humans.",
+      "journal": "Obesity (Silver Spring)",
+      "year": "2013",
+      "first_author": "M\u00fcller MJ",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23404923/",
+      "label": "Muller 2013 adaptive thermogenesis",
+      "expected": "review",
+      "is_sr_or_ma": false
+    }
+  ],
+  "best-diet": [
+    {
+      "pmid": "25182101",
+      "title": "Comparison of weight loss among named diet programs in overweight and obese adults: a meta-analysis.",
+      "journal": "JAMA",
+      "year": "2014",
+      "first_author": "Johnston BC",
+      "publication_types": [
+        "Comparative Study",
+        "Research Support, Non-U.S. Gov't",
+        "Network Meta-Analysis"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25182101/",
+      "label": "Johnston 2014 named diets",
+      "expected": "meta-analysis",
+      "is_sr_or_ma": true
+    },
+    {
+      "pmid": "29466592",
+      "title": "Effect of Low-Fat vs Low-Carbohydrate Diet on 12-Month Weight Loss in Overweight Adults and the Association With Genotype Pattern or Insulin Secretion: The DIETFITS Randomized Clinical Trial.",
+      "journal": "JAMA",
+      "year": "2018",
+      "first_author": "Gardner CD",
+      "publication_types": [
+        "Comparative Study",
+        "Randomized Controlled Trial",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29466592/",
+      "label": "Gardner 2018 DIETFITS",
+      "expected": "RCT",
+      "is_sr_or_ma": false
+    },
+    {
+      "pmid": "15632335",
+      "title": "Comparison of the Atkins, Ornish, Weight Watchers, and Zone diets for weight loss and heart disease risk reduction: a randomized trial.",
+      "journal": "JAMA",
+      "year": "2005",
+      "first_author": "Dansinger ML",
+      "publication_types": [
+        "Clinical Trial",
+        "Randomized Controlled Trial",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Research Support, U.S. Gov't, P.H.S."
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15632335/",
+      "label": "Dansinger 2005 four diets",
+      "expected": "RCT",
+      "is_sr_or_ma": false
+    },
+    {
+      "pmid": "10349584",
+      "title": "Validation of the flexible and rigid control dimensions of dietary restraint.",
+      "journal": "Int J Eat Disord",
+      "year": "1999",
+      "first_author": "Westenhoefer J",
+      "publication_types": [],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10349584/",
+      "label": "Westenhoefer 1999 rigid/flexible",
+      "expected": "observational",
+      "is_sr_or_ma": false
+    }
+  ],
+  "hunger": [
+    {
+      "pmid": "32768415",
+      "title": "Effect of short- and long-term protein consumption on appetite and appetite-regulating gastrointestinal hormones, a systematic review and meta-analysis of randomized controlled trials.",
+      "journal": "Physiol Behav",
+      "year": "2020",
+      "first_author": "Kohanmoo A",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32768415/",
+      "label": "Kohanmoo 2020 protein appetite",
+      "expected": "meta-analysis",
+      "is_sr_or_ma": true
+    },
+    {
+      "pmid": "17556681",
+      "title": "Dietary energy density in the treatment of obesity: a year-long trial comparing 2 weight-loss diets.",
+      "journal": "Am J Clin Nutr",
+      "year": "2007",
+      "first_author": "Ello-Martin JA",
+      "publication_types": [
+        "Comparative Study",
+        "Randomized Controlled Trial",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17556681/",
+      "label": "Ello-Martin 2007 energy density",
+      "expected": "RCT",
+      "is_sr_or_ma": false
+    },
+    {
+      "pmid": "31105044",
+      "title": "Ultra-Processed Diets Cause Excess Calorie Intake and Weight Gain: An Inpatient Randomized Controlled Trial of Ad Libitum Food Intake.",
+      "journal": "Cell Metab",
+      "year": "2019",
+      "first_author": "Hall KD",
+      "publication_types": [
+        "Randomized Controlled Trial",
+        "Research Support, N.I.H., Intramural"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31105044/",
+      "label": "Hall 2019 ultra-processed",
+      "expected": "RCT",
+      "is_sr_or_ma": false
+    },
+    {
+      "pmid": "20921542",
+      "title": "Insufficient sleep undermines dietary efforts to reduce adiposity.",
+      "journal": "Ann Intern Med",
+      "year": "2010",
+      "first_author": "Nedeltcheva AV",
+      "publication_types": [
+        "Randomized Controlled Trial",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20921542/",
+      "label": "Nedeltcheva 2010 sleep",
+      "expected": "RCT",
+      "is_sr_or_ma": false
+    }
+  ],
+  "after-the-diet": [
+    {
+      "pmid": "11684524",
+      "title": "Long-term weight-loss maintenance: a meta-analysis of US studies.",
+      "journal": "Am J Clin Nutr",
+      "year": "2001",
+      "first_author": "Anderson JW",
+      "publication_types": [
+        "Meta-Analysis",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S."
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11684524/",
+      "label": "Anderson 2001 maintenance",
+      "expected": "meta-analysis",
+      "is_sr_or_ma": true
+    },
+    {
+      "pmid": "16002825",
+      "title": "Long-term weight loss maintenance.",
+      "journal": "Am J Clin Nutr",
+      "year": "2005",
+      "first_author": "Wing RR",
+      "publication_types": [
+        "Research Support, N.I.H., Extramural",
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Review"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16002825/",
+      "label": "Wing 2005 maintenance",
+      "expected": "review",
+      "is_sr_or_ma": false
+    },
+    {
+      "pmid": "24355667",
+      "title": "Weight-loss maintenance for 10 years in the National Weight Control Registry.",
+      "journal": "Am J Prev Med",
+      "year": "2014",
+      "first_author": "Thomas JG",
+      "publication_types": [],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24355667/",
+      "label": "Thomas 2014 NWCR",
+      "expected": "observational",
+      "is_sr_or_ma": false
+    }
+  ],
+  "stubborn-fat": [
+    {
+      "pmid": "21804427",
+      "title": "The effect of abdominal exercise on abdominal fat.",
+      "journal": "J Strength Cond Res",
+      "year": "2011",
+      "first_author": "Vispute SS",
+      "publication_types": [
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21804427/",
+      "label": "Vispute 2011 abdominal exercise",
+      "expected": "RCT",
+      "is_sr_or_ma": false
+    },
+    {
+      "pmid": "23222084",
+      "title": "Regional fat changes induced by localized muscle endurance resistance training.",
+      "journal": "J Strength Cond Res",
+      "year": "2013",
+      "first_author": "Ram\u00edrez-Campillo R",
+      "publication_types": [
+        "Controlled Clinical Trial",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23222084/",
+      "label": "Ramirez-Campillo 2013 one leg",
+      "expected": "controlled trial",
+      "is_sr_or_ma": false
+    },
+    {
+      "pmid": "38010201",
+      "title": "Abdominal aerobic endurance exercise reveals spot reduction exists: A randomized controlled trial.",
+      "journal": "Physiol Rep",
+      "year": "2023",
+      "first_author": "Brobakken MF",
+      "publication_types": [
+        "Randomized Controlled Trial"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38010201/",
+      "label": "Brobakken 2023 abdominal",
+      "expected": "RCT",
+      "is_sr_or_ma": false
+    },
+    {
+      "pmid": "17596787",
+      "title": "Subcutaneous fat alterations resulting from an upper-body resistance training program.",
+      "journal": "Med Sci Sports Exerc",
+      "year": "2007",
+      "first_author": "Kostek MA",
+      "publication_types": [
+        "Research Support, N.I.H., Extramural"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17596787/",
+      "label": "Kostek 2007 one arm",
+      "expected": "controlled trial",
+      "is_sr_or_ma": false
+    },
+    {
+      "pmid": "3034620",
+      "title": "Heterogeneous distribution of beta and alpha-2 adrenoceptor binding sites in human fat cells from various fat deposits: functional consequences.",
+      "journal": "Eur J Clin Invest",
+      "year": "1987",
+      "first_author": "Mauriege P",
+      "publication_types": [
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3034620/",
+      "label": "Mauriege 1987 adrenoceptors",
+      "expected": "lab study",
+      "is_sr_or_ma": false
+    }
+  ]
+}
