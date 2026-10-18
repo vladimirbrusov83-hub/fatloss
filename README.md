@@ -8,7 +8,7 @@ stubborn fat). Written in Vladimir's own coaching voice: no text taken from
 other sites, coaching calls labelled as such.
 
 **Status:** all 23 pages written and locally complete. No GitHub repo, no Vercel
-project, no subdomain yet. Subdomain still to be decided (`fatloss.brusovcoach.org` is the obvious pick).
+project, no subdomain yet. Live: https://fatloss.brusovcoach.org (Vercel project `fatloss`, auto-deploys on push to GitHub `vladimirbrusov83-hub/fatloss`).
 
 ## Run it locally
 
